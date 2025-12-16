@@ -1,0 +1,27 @@
+[
+    {
+        "email": "prueba1@gmail.com",
+        "password": "probando",
+        "confirmPassword": "probando"
+    },
+    {
+        "email": "prueba2@gmail.com",
+        "password": "proband",
+        "confirmPassword": "proband"
+    },
+    {
+        "email": "prueba3@gmail.com",
+        "password": "testingo",
+        "confirmPassword": "probando"
+    },
+    {
+        "email": "prueba4gmail.com",
+        "password": "testingo",
+        "confirmPassword": "testingo"
+    },
+    {
+        "email": "prueba5gmail.com",
+        "password": "testeo",
+        "confirmPassword": "probando"
+    }
+]
