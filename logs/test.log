@@ -1,34 +1,22 @@
-2025-12-16 15:30:24 [INFO]: The user clicks on the Login menu option
-2025-12-16 15:30:25 [INFO]: The user choose to sing up
-2025-12-16 15:30:27 [INFO]: The email used is: prueba1@gmail.com
-2025-12-16 15:30:28 [INFO]: The password used is: probando
-2025-12-16 15:30:30 [INFO]: The confirmation password used is: probando
-2025-12-16 15:30:32 [INFO]: The user clicks on the Sign up button
-2025-12-16 15:30:33 [INFO]: The sign up was done successfully
-2025-12-16 15:30:35 [INFO]: The email used is: prueba2@gmail.com
-2025-12-16 15:30:37 [INFO]: The password used is: proband
-2025-12-16 15:30:38 [INFO]: The confirmation password used is: proband
-2025-12-16 15:30:39 [INFO]: The user clicks on the Sign up button
-2025-12-16 15:30:45 [ERROR]: Failed in password_fail: Please enter at least 8 characters
-2025-12-16 15:30:46 [ERROR]: Failed in confirm_password_fail: Please enter the same password
-2025-12-16 15:30:46 [WARN]: We found 2 errors in total.
-2025-12-16 15:30:47 [INFO]: The email used is: prueba3@gmail.com
-2025-12-16 15:30:49 [INFO]: The password used is: testingo
-2025-12-16 15:30:51 [INFO]: The confirmation password used is: probando
-2025-12-16 15:30:51 [INFO]: The user clicks on the Sign up button
-2025-12-16 15:30:57 [ERROR]: Failed in confirm_password_fail: Please enter the same password
-2025-12-16 15:30:57 [WARN]: We found 1 errors in total.
-2025-12-16 15:30:59 [INFO]: The email used is: prueba4gmail.com
-2025-12-16 15:31:01 [INFO]: The password used is: testingo
-2025-12-16 15:31:02 [INFO]: The confirmation password used is: testingo
-2025-12-16 15:31:03 [INFO]: The user clicks on the Sign up button
-2025-12-16 15:31:09 [ERROR]: Failed in email_fail: Please enter a valid email address
-2025-12-16 15:31:09 [WARN]: We found 1 errors in total.
-2025-12-16 15:31:10 [INFO]: The email used is: prueba5gmail.com
-2025-12-16 15:31:12 [INFO]: The password used is: testeo
-2025-12-16 15:31:14 [INFO]: The confirmation password used is: probando
-2025-12-16 15:31:15 [INFO]: The user clicks on the Sign up button
-2025-12-16 15:31:21 [ERROR]: Failed in email_fail: Please enter a valid email address
-2025-12-16 15:31:21 [ERROR]: Failed in password_fail: Please enter at least 8 characters
-2025-12-16 15:31:21 [ERROR]: Failed in confirm_password_fail: Please enter the same password
-2025-12-16 15:31:22 [WARN]: We found 3 errors in total.
+2025-12-17 13:12:44 [INFO]: The user clicks on the Login menu option
+2025-12-17 13:12:45 [INFO]: The user choose to log in
+2025-12-17 13:12:46 [INFO]: The email used is: prueba1@gmail.com
+2025-12-17 13:12:48 [INFO]: The password used is: probando
+2025-12-17 13:12:49 [INFO]: The user clicks on the Login button
+2025-12-17 13:12:51 [INFO]: The sign up was done successfully
+2025-12-17 13:12:53 [INFO]: The email used is: prueba1@gmail.com
+2025-12-17 13:12:55 [INFO]: The password used is: proba
+2025-12-17 13:12:56 [INFO]: The user clicks on the Login button
+2025-12-17 13:13:01 [ERROR]: Failed in password_fail: Please enter at least 8 characters
+2025-12-17 13:13:01 [WARN]: We found 1 errors in total.
+2025-12-17 13:13:02 [INFO]: The email used is: prueba1gmail.com
+2025-12-17 13:13:04 [INFO]: The password used is: probando
+2025-12-17 13:13:05 [INFO]: The user clicks on the Login button
+2025-12-17 13:13:10 [ERROR]: Failed in email_fail: Please enter a valid email address
+2025-12-17 13:13:10 [WARN]: We found 1 errors in total.
+2025-12-17 13:13:12 [INFO]: The email used is: prueba1gmail.com
+2025-12-17 13:13:13 [INFO]: The password used is: test
+2025-12-17 13:13:14 [INFO]: The user clicks on the Login button
+2025-12-17 13:13:19 [ERROR]: Failed in email_fail: Please enter a valid email address
+2025-12-17 13:13:20 [ERROR]: Failed in password_fail: Please enter at least 8 characters
+2025-12-17 13:13:20 [WARN]: We found 2 errors in total.

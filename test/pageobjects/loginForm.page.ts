@@ -41,6 +41,10 @@ class LoginFormPage {
         return $(Locators.popUpSignUpSuccesfully);
     }
 
+    public get popUpLogSuccesfully() {
+        return $(Locators.popUpLogInSuccesfully);
+    }
+
     public get okBtn() {
         return $(Locators.okButtonSignUpAlert);
     }
@@ -93,10 +97,17 @@ class LoginFormPage {
             logger.info(chalk.green(`The password used is: ${password}`))
             await this.logInUserBtn.click()
             logger.info(chalk.green('The user clicks on the Login button'))
-        }
+            await this.popUpLogSuccesfully.waitForDisplayed()
+            await this.okBtn.click()
+            logger.info(chalk.green('The sign up was done successfully'))
+        }  
         catch (error){
-            await browser.saveScreenshot('./screenshots/log_in_user_fail.png')
-            throw error
+            try {
+                await this.checkSignUpErrors()
+            }
+            catch (validationError){
+                throw validationError;
+            }
         }
     }
 

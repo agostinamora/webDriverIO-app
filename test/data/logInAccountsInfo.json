@@ -2,5 +2,17 @@
     {
         "email": "prueba1@gmail.com",
         "password": "probando"
+    },
+    {
+        "email": "prueba1@gmail.com",
+        "password": "proba"
+    },
+    {
+        "email": "prueba1gmail.com",
+        "password": "probando"
+    },
+    {
+        "email": "prueba1gmail.com",
+        "password": "test"
     }
 ]
