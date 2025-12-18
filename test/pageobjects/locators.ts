@@ -1,4 +1,5 @@
 export const Locators = {
+    //Login and sign up
     logInMenuOption: '-android uiautomator:new UiSelector().description("Login")',
     loginFormButton: '-android uiautomator:new UiSelector().text("Login")',
     signUpFormButton: '-android uiautomator:new UiSelector().text("Sign up")',
@@ -12,5 +13,18 @@ export const Locators = {
     okButtonSignUpAlert: '//android.widget.Button[@text="OK"]',
     emailErrorMessage: '-android uiautomator:new UiSelector().text("Please enter a valid email address")',
     passwordErrorMessage: '-android uiautomator:new UiSelector().text("Please enter at least 8 characters")',
-    confirmPassErrorMessage: '-android uiautomator:new UiSelector().text("Please enter the same password")'
+    confirmPassErrorMessage: '-android uiautomator:new UiSelector().text("Please enter the same password")',
+    //Form
+    formMenuOption: '-android uiautomator:new UiSelector().text("Forms")',
+    formTitleTxt: '-android uiautomator:new UiSelector().text("Form components")',
+    firstInputField: 'accessibility id:text-input',
+    secondInputField: 'accessibility id:input-text-result',
+    switchBtn: 'accessibility id:switch',
+    switchText: 'accessibility id:switch-text',
+    dropdown: 'accessibility id:Dropdown',
+    dropdownOptions: '//android.widget.CheckedTextView[@resource-id="android:id/text1"]',
+    buttonActive: '-android uiautomator:new UiSelector().description("button-Active")',
+    popUpActive: '//android.widget.TextView[@resource-id="android:id/message" and @text="This button is active"]',
+    askMeLaterFormBtn: '//android.widget.Button[@text="ASK ME LATER"]',
+    cancelFormBtn: '//android.widget.Button[@text="CANCEL"]',
 }

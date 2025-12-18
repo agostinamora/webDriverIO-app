@@ -106,7 +106,7 @@ class LoginFormPage {
                 await this.checkSignUpErrors()
             }
             catch (validationError){
-                throw validationError;
+                throw validationError
             }
         }
     }
@@ -130,7 +130,7 @@ class LoginFormPage {
                 await this.checkSignUpErrors()
             }
             catch (validationError){
-                throw validationError;
+                throw validationError
             }
         }
     }
@@ -148,18 +148,18 @@ class LoginFormPage {
         for (const check of errorChecks) {
             if (await check.element.isDisplayed()) {
                 const errorText = await check.element.getText()
-                logger.error(chalk.hex('#FF0000')(`Failed in ${check.name}: ${errorText}`));
-                await browser.saveScreenshot(`./screenshots/${check.name}.png`);
-                errorsFound++;
+                logger.error(chalk.hex('#FF0000')(`Failed in ${check.name}: ${errorText}`))
+                await browser.saveScreenshot(`./screenshots/${check.name}.png`)
+                errorsFound++
             }
         }
 
         if (errorsFound > 0) {
-            logger.warn(chalk.hex('#FFA500')(`We found ${errorsFound} errors in total.`));
+            logger.warn(chalk.hex('#FFA500')(`We found ${errorsFound} errors in total.`))
         }
 
     }catch (error) {
-        logger.error('Unknown fail');
+        logger.error('Unknown fail')
         throw error;
     }
 }
