@@ -1,4 +1,3 @@
-import { skip } from 'node:test'
 import info from '../data/signUpAccountsInfo.json'
 import LoginFormPage from '../pageobjects/loginForm.page.js'
 
